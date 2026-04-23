@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет — КРАН</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Хедер (копировать из catalog.html) -->
+        
+        <main>
+            <div class="container">
+                <div class="elements-menu-catalog">
+                    <span class="inline"><a href="index.html">Главная</a></span>
+                    <span class="delimiter"></span>
+                    <span class="inline">Личный кабинет</span>
+                </div>
+
+                <div class="cabinet-container">
+                    <!-- Боковое меню -->
+                    <aside class="cabinet-sidebar">
+                        <ul>
+                            <li><a href="cabinet-settings.html" class="active">Личные данные</a></li>
+                            <li><a href="cabinet-orders.html">История заказов</a></li>
+                            <li><a href="cabinet-favorites.html">Избранное</a></li>
+                            <li><a href="cabinet-design.html">Дизайн-решения</a></li>
+                            <li><a href="cabinet-settings.html">Настройки ЛК</a></li>
+                        </ul>
+                    </aside>
+
+                    <!-- Основной контент -->
+                    <div class="cabinet-content">
+                        <h2>Константин Константинович Константинопольский</h2>
+                        
+                        <div class="cabinet-info-row">
+                            <div class="info-group">
+                                <label>Эл. почта</label>
+                                <input type="email" value="konstantin@example.com">
+                            </div>
+                            <div class="info-group">
+                                <label>Телефон</label>
+                                <input type="tel" value="+7 924 789-56-80">
+                            </div>
+                        </div>
+
+                        <div class="info-group full-width">
+                            <label>Адрес доставки</label>
+                            <input type="text" value="г. Хабаровск, ул. Карла Маркса, 65, кв. 200">
+                        </div>
+
+                        <h3>Смена пароля</h3>
+                        <div class="password-group">
+                            <div class="info-group">
+                                <label>Текущий пароль</label>
+                                <input type="password" placeholder="**********">
+                            </div>
+                            <div class="info-group">
+                                <label>Новый пароль</label>
+                                <input type="password" placeholder="Введите новый пароль">
+                            </div>
+                            <div class="info-group">
+                                <label>Повторить пароль</label>
+                                <input type="password" placeholder="Повторите пароль">
+                            </div>
+                        </div>
+
+                        <button class="submit-button">Сохранить изменения</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Футер -->
+        <footer class="footer container">
+            <!-- содержимое футера из index.html -->
+        </footer>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+    <div class="modal" id="modal"><!-- содержимое модалки --></div>
+    <script src="js/modal.js"></script>
+</body>
+</html>

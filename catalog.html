@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог — КРАН</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Хедер такой же как на главной -->
+        <div class="container">
+            <header class="header">
+                <div class="header_logo logo">
+                    <div class="logo_name">КРАН</div>
+                </div>
+                <div class="header_container">
+                    <div class="header_top">
+                        <div class="header_menu">
+                            <nav class="menu menu-grey">
+                                <ul class="menu_list">
+                                    <li class="menu_item"><a href="services.html" class="menu_link_up">Услуги</a></li>
+                                    <li class="menu_item"><a href="about.html" class="menu_link_up">О компании</a></li>
+                                    <li class="menu_item"><a href="news.html" class="menu_link_up">Новости</a></li>
+                                    <li class="menu_item"><a href="delivery.html" class="menu_link_up">Доставка и оплата</a></li>
+                                    <li class="menu_item"><a href="returns.html" class="menu_link_up">Обмен и возврат</a></li>
+                                    <li class="menu_item"><a href="contacts.html" class="menu_link_up">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header_search search">
+                            <form class="search_form" action="/search">
+                                <input class="search_input" type="text" name="search_text" placeholder="Поиск...">
+                                <button class="search_submit" type="submit" aria-label="Поиск"></button>
+                            </form>
+                        </div>
+                        <ul class="header_social social_list">
+                            <li><a href="#" class="social_link"><img src="img/WhatsApp_black.png" alt="WhatsApp"></a></li>
+                            <li><a href="#" class="social_link"><img src="img/Instagram_black.png" alt="Instagram"></a></li>
+                        </ul>
+                        <a href="tel:88004558090" class="header_phone phone">8 800 455 80 90</a>
+                        <div class="header_middle">
+                            <a href="#" class="header_button button callback-open">Обратный звонок</a>
+                        </div>
+                    </div>
+                    <div class="header_bottom">
+                        <div class="header_menu-container">
+                            <div class="header_category-menu">
+                                <nav class="menu">
+                                    <ul class="category-menu_list-main">
+                                        <li class="category-menu_item-main" data-type="catalog">Каталог</li>
+                                    </ul>
+                                    <ul class="catalog_option">Ванная комната</ul>
+                                    <ul class="catalog_option">Туалет</ul>
+                                    <ul class="catalog_option">Кухня</ul>
+                                </nav>
+                            </div>
+                            <div class="header_sub-menu">
+                                <nav class="menu">
+                                    <ul class="menu_list">
+                                        <li class="menu_item"><a href="promotions.html" class="menu_link menu_blue"><img src="img/percent (blue).png" alt>Акции</a></li>
+                                        <li class="menu_item"><a href="credit.html" class="menu_link">Кредит</a></li>
+                                        <li class="menu_item"><a href="brands.html" class="menu_link">Бренды</a></li>
+                                        <li class="menu_item"><a href="examples.html" class="menu_link">Примеры работ</a></li>
+                                        <li class="menu_item"><a href="design.html" class="menu_link">Дизайн решения</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="favorites_header">
+                            <a href="cabinet-favorites.html" class="favorite_link"><img src="img/heart.png" alt="Избранное"></a>
+                            <span class="favorite_count">12</span>
+                        </div>
+                        <div class="header_cart">
+                            <a href="cart.html" class="header_basket">
+                                <div class="header_basket-icon"><img src="img/shopping-cart.png" alt="Корзина"></div>
+                                <div class="header_basket-count">34</div>
+                            </a>
+                        </div>
+                        <div class="header_basket-cost">24 000 <span class="header_rub">₽</span></div>
+                        <div class="header_user-menu">
+                            <div class="header_cabinet cabinet_header" id="cabinetButton">
+                                <img class="cabinet_header-icon" src="img/user.png" alt="Личный кабинет">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <main>
+            <div class="container">
+                <!-- Хлебные крошки -->
+                <div class="elements-menu-catalog">
+                    <span class="inline"><a href="index.html">Главная</a></span>
+                    <span class="delimiter"></span>
+                    <span class="inline">Каталог</span>
+                </div>
+
+                <div class="block-title">
+                    <div class="block-title_text">Каталог</div>
+                    <div class="block-title_icon"></div>
+                </div>
+
+                <!-- Навигация по категориям (иконки) -->
+                <div class="catalog-navigation">
+                    <div class="catalog-navigation-item">
+                        <img src="img/Group 12.png" alt="Мебель">
+                        <span>Мебель</span>
+                    </div>
+                    <div class="catalog-navigation-item">
+                        <img src="img/Group 13.png" alt="Душевая зона">
+                        <span>Душевая зона</span>
+                    </div>
+                    <div class="catalog-navigation-item">
+                        <img src="img/Group 14.png" alt="Зона ванны">
+                        <span>Зона ванны</span>
+                    </div>
+                    <div class="catalog-navigation-item">
+                        <img src="img/Group 15.png" alt="Общая зона">
+                        <span>Общая зона</span>
+                    </div>
+                    <div class="catalog-navigation-item">
+                        <img src="img/Group 16.png" alt="Стояк канализации">
+                        <span>Стояк канализации</span>
+                    </div>
+                </div>
+
+                <div class="catalog_page-container">
+                    <!-- Фильтры -->
+                    <aside class="catalog_filters">
+                        <div class="filter-block">
+                            <h4>Цена, ₽</h4>
+                            <div class="price-slider">
+                                <input type="range" min="0" max="50000" value="25000">
+                                <div class="price-values">
+                                    <span>0 ₽</span>
+                                    <span>50 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-block">
+                            <h4>Наличие</h4>
+                            <label><input type="checkbox"> В наличии</label>
+                            <label><input type="checkbox"> Под заказ</label>
+                        </div>
+                        <div class="filter-block">
+                            <h4>Производитель</h4>
+                            <label><input type="checkbox"> Grohe</label>
+                            <label><input type="checkbox"> Kludi</label>
+                            <label><input type="checkbox"> Omoikiri</label>
+                            <label><input type="checkbox"> Vitra</label>
+                        </div>
+                        <div class="filter-block">
+                            <h4>Серия</h4>
+                            <label><input type="checkbox"> Ambienta</label>
+                            <label><input type="checkbox"> Bozz</label>
+                            <label><input type="checkbox"> Bosen</label>
+                        </div>
+                        <button class="filter-reset">Сбросить фильтры</button>
+                    </aside>
+
+                    <!-- Сетка товаров -->
+                    <div class="catalog_page-main-container">
+                        <div class="catalog_bl-sorting">
+                            <span>Сортировка:</span>
+                            <select class="sort-select">
+                                <option>По популярности</option>
+                                <option>Сначала дешевле</option>
+                                <option>Сначала дороже</option>
+                                <option>По новизне</option>
+                            </select>
+                        </div>
+
+                        <div class="catalog_list">
+                            <!-- Карточка товара 1 -->
+                            <div class="catalog_item slide">
+                                <a href="product.html" class="catalog_image-container">
+                                    <img class="catalog_image" src="img/Rectangle 13.png" alt="Смеситель">
+                                </a>
+                                <div class="catalog_content">
+                                    <a href="product.html" class="catalog_title">Смеситель для раковины Kludi Ambienta</a>
+                                    <div class="catalog_price-container">
+                                        <span class="catalog_price">39 200 <span class="rub">₽</span></span>
+                                        <span class="old_catalog_price">45 900 <span class="old_rub">₽</span></span>
+                                    </div>
+                                    <div class="catalog_quantity-container">
+                                        <div class="catalog_quantity">
+                                            <div class="minus-basket">-</div>
+                                            <span class="catalog_quantity-container_number">1</span>
+                                            <div class="plus-basket">+</div>
+                                        </div>
+                                        <div class="catalog_favorite-good">
+                                            <img src="img/heart.png" alt="В избранное">
+                                        </div>
+                                    </div>
+                                    <button class="catalog_add-button">В корзину</button>
+                                </div>
+                                <div class="catalog_label-container">
+                                    <span class="catalog_label-stock">акция</span>
+                                    <span class="catalog_label-discount"><img src="img/like.png" alt="Хит"></span>
+                                </div>
+                            </div>
+                            <!-- Повторить карточки для остальных товаров -->
+                        </div>
+
+                        <div class="catalog_more-container">
+                            <button class="load-more">Показать ещё</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Футер такой же как на главной -->
+        <footer class="footer container">
+            <!-- содержимое футера из index.html -->
+        </footer>
+    </div>
+
+    <!-- Модальные окна -->
+    <div id="overlay" class="overlay"></div>
+    <div class="modal" id="modal"><!-- содержимое модалки из index.html --></div>
+    <div class="modal" id="callbackModal">
+        <div class="modal-header"><h2>Обратный звонок</h2><span class="close-button">&times;</span></div>
+        <div class="modal-body">
+            <form class="form">
+                <input type="text" placeholder="Имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <textarea placeholder="Комментарий" rows="3"></textarea>
+                <div class="form-action">
+                    <button type="submit" class="submit-button">Отправить</button>
+                    <div class="personal-data">Нажимая на кнопку, я даю согласие на обработку <a href="#" class="personal-data-link">персональных данных</a></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+    <script src="js/copy.js"></script>
+</body>
+</html>

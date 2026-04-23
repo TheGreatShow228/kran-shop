@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги — КРАН</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Хедер (копировать из catalog.html) -->
+        
+        <main>
+            <div class="container">
+                <div class="elements-menu-catalog">
+                    <span class="inline"><a href="index.html">Главная</a></span>
+                    <span class="delimiter"></span>
+                    <span class="inline">Услуги</span>
+                </div>
+
+                <div class="block-title">
+                    <div class="block-title_text">Услуги</div>
+                    <div class="block-title_icon"></div>
+                </div>
+
+                <div class="services-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis nisl feugiat suspendisse eros. Nulla neque viverra est vulputate sem porttitor. Integer sed tortor tincidunt tellus lacus, id viverra. Venenatis, netus vitae rhoncus risus, non. Egestas egestas magna facilisis egestas eget fames gravida auctor. Aliquet morbi ullamcorper accumsan arcu sed hac orci eros. Nullam libero at elit nulla condimentum sapien euismod ut egestas. Ut ullamcorper nunc sed blandit velit cras. Fermentum diam tempus vulputate egestas pretium sem lacus ac. Vitae turpis tortor consequat orci erat volutpat, feugiat. Eu nullam sed faucibus turpis. Consequat fermentum cursus ac bibendum. Turpis integer diam amet, risi, nulla quis. Quis tristique sed et ornare. Nisl, tellus tortor turpis elit platea varius tempor. Egestas id ut dui sem rauc, eu. Nisi velit pellentesque fames enim, sit non. Mattis quam vitae eget pharetra posuere.</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Установка сантехники</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis nisl feugiat suspendisse eros. Nulla neque viverra est vulputate sem porttitor.</p>
+                        <div class="service-buttons">
+                            <button class="service-btn callback-open">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Монтаж сантехники</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis nisl feugiat suspendisse eros. Nulla neque viverra est vulputate sem porttitor.</p>
+                        <div class="service-buttons">
+                            <button class="service-btn callback-open">Оставить заявку</button>
+                            <button class="service-btn-outline">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Демонтаж сантехники и мебели</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis nisl feugiat suspendisse eros. Nulla neque viverra est vulputate sem porttitor.</p>
+                        <div class="service-buttons">
+                            <button class="service-btn callback-open">Оставить заявку</button>
+                            <button class="service-btn-outline">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Ремонт</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis nisl feugiat suspendisse eros. Nulla neque viverra est vulputate sem porttitor.</p>
+                        <div class="service-buttons">
+                            <button class="service-btn callback-open">Оставить заявку</button>
+                            <button class="service-btn-outline">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <h3>Ремонт под ключ</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis nisl feugiat suspendisse eros. Nulla neque viverra est vulputate sem porttitor.</p>
+                        <div class="service-buttons">
+                            <button class="service-btn callback-open">Оставить заявку</button>
+                            <button class="service-btn-outline">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Футер (копировать из index.html) -->
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+    <div class="modal" id="callbackModal">
+        <div class="modal-header"><h2>Оставить заявку</h2><span class="close-button">&times;</span></div>
+        <div class="modal-body">
+            <form class="form">
+                <input type="text" placeholder="Имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <textarea placeholder="Комментарий" rows="3"></textarea>
+                <div class="form-action">
+                    <button type="submit" class="submit-button">Отправить</button>
+                    <div class="personal-data">Нажимая на кнопку, я даю согласие на обработку <a href="#" class="personal-data-link">персональных данных</a></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+</body>
+</html>
